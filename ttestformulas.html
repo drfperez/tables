@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student t-test</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+<body>
+	<h1>Student t-test</h1>
+	<p>The Student t-test is a statistical hypothesis test used to determine whether two sets of data are significantly different from each other. It is used when the data samples are small (less than 30), and the variances of the two samples are not known to be equal.</p>
+	
+	<h2>Formula</h2>
+	<p>The formula for calculating the t-value for a two-sample t-test is:</p>
+	<p style="text-align:center">
+		$$t = \frac{\bar{X}_1 - \bar{X}_2}{s_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}$$
+	</p>
+	<p>where:</p>
+	<ul>
+		<li>$$\bar{X}_1$$ and $$\bar{X}_2$$ are the means of the two samples</li>
+		<li>$$s_p$$ is the pooled standard deviation of the two samples, calculated as:</li>
+	</ul>
+	<p style="text-align:center">
+		$$s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}$$
+	</p>
+	<ul>
+		<li>$$n_1$$ and $$n_2$$ are the sample sizes of the two groups</li>
+		<li>$$s_1$$ and $$s_2$$ are the standard deviations of the two samples</li>
+	</ul>
+	
+	<h2>Interpretation</h2>
+	<p>If the calculated t-value is greater than the critical t-value (which depends on the degrees of freedom and the level of significance), we reject the null hypothesis, which states that there is no significant difference between the two sets of data.</p>
+</body>
+</html>

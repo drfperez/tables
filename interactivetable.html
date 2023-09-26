@@ -1,0 +1,1879 @@
+<html>
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.7/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
+
+<style>
+    .row {
+	padding: 70px 0;
+	&.demo {
+		padding: 0 0 35px;
+	}
+}
+</style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Include the Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+      
+</head>
+<body>  
+	
+			<h1>Herbal drugs from European Medicines Agency</h1>
+	
+
+<table id="example" class="display" cellspacing="0" width="100%">
+
+<thead><tr><th title="Field #1">Latin name of herbal substance</th>
+<th title="Field #2">Botanical name of plant</th>
+<th title="Field #3">English common name of herbal substance</th>
+<th title="Field #4">Combination</th>
+<th title="Field #5">Use</th>
+<th title="Field #6">Revision date</th>
+<th title="Field #7">URL</th>
+</tr></thead>
+<tbody><tr>
+<td>Rhodiolae roseae rhizoma et radix</td>
+<td>Rhodiola rosea L.</td>
+<td>Arctic root</td>
+<td>no</td>
+<td>Fatigue and weakness, Mental stress and mood disorders</td>
+<td>2/08/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rhodiolae-roseae-rhizoma-et-radix</td>
+</tr>
+<tr>
+<td>Origani majoranae herba</td>
+<td>Origanum majorana L.</td>
+<td>Majoram</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Gastrointestinal disorders</td>
+<td>2/08/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/origani-majoranae-herba</td>
+</tr>
+<tr>
+<td>Melaleucae aetheroleum</td>
+<td>Melaleuca alternifolia (Maiden and Betche) Cheel</td>
+<td>Tea-tree oil</td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds</td>
+<td>2/08/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/melaleucae-aetheroleum</td>
+</tr>
+<tr>
+<td>Capsici fructus</td>
+<td>Capsicum annuum L. var. minimum (Miller) Heiser</td>
+<td>Capsicum</td>
+<td>no</td>
+<td>Pain and inflammation</td>
+<td>31/07/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/capsici-fructus</td>
+</tr>
+<tr>
+<td>Rubi idaei folium</td>
+<td>Rubus idaeus L.</td>
+<td>Raspberry leaf</td>
+<td>no</td>
+<td>Mouth and throat disorders, Pain and inflammation, Gastrointestinal disorders</td>
+<td>27/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rubi-idaei-folium</td>
+</tr>
+<tr>
+<td>Myrtilli fructus siccus</td>
+<td>Vaccinium myrtillus L.</td>
+<td>Dried Bilberry fruit</td>
+<td>no</td>
+<td>Mouth and throat disorders, Gastrointestinal disorders</td>
+<td>27/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/myrtilli-fructus-siccus</td>
+</tr>
+<tr>
+<td>Myrtilli fructus recens</td>
+<td>Vaccinium myrtillus L.</td>
+<td>Fresh Bilberry fruit</td>
+<td>no</td>
+<td>Circulatory disorders</td>
+<td>27/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/myrtilli-fructus-recens</td>
+</tr>
+<tr>
+<td>Sisymbrii officinalis herba</td>
+<td>Sisymbrium officinale (L.) Scop.</td>
+<td>Hedge mustard</td>
+<td>no</td>
+<td>Mouth and throat disorders, Cough and cold</td>
+<td>21/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sisymbrii-officinalis-herba</td>
+</tr>
+<tr>
+<td>Ricini oleum</td>
+<td>Ricinus communis L.</td>
+<td>Castor oil</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>21/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/ricini-oleum</td>
+</tr>
+<tr>
+<td>Ginseng radix</td>
+<td>Panax ginseng C.A.Mey.</td>
+<td>Ginseng</td>
+<td>no</td>
+<td>Fatigue and weakness</td>
+<td>15/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix</td>
+</tr>
+<tr>
+<td>Maydis stigma</td>
+<td>Zea mays L.</td>
+<td>Corn silk</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>15/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/maydis-stigma</td>
+</tr>
+<tr>
+<td>Juniperi galbulus (pseudo-fructus)</td>
+<td>Juniperus communis L.</td>
+<td>Juniper cone berry</td>
+<td>no</td>
+<td>Digestive disorder, Urinary tract and genital disorders</td>
+<td>13/06/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/juniperi-pseudo-fructus-galbulus</td>
+</tr>
+<tr>
+<td>Helichrysi flos</td>
+<td>Helichrysum arenarium (L.) Moench</td>
+<td>Sandy everlasting</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>2/05/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/helichrysi-flos</td>
+</tr>
+<tr>
+<td>Combination: Species diureticae</td>
+<td>Combination: maximum 4 out of 13 possible plants</td>
+<td>Diuretic herbal tea combinations</td>
+<td>yes</td>
+<td>Urinary tract and genital disorders</td>
+<td>2/05/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/species-diureticae</td>
+</tr>
+<tr>
+<td>Silybi mariani fructus</td>
+<td> Silybum marianum L. Gaertn.</td>
+<td>Milkthistle Fruit</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>2/05/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/silybi-mariani-fructus</td>
+</tr>
+<tr>
+<td>Allii sativi bulbus</td>
+<td>Allium sativum L.</td>
+<td>Garlic</td>
+<td>no</td>
+<td>Cough and cold, Circulatory disorders</td>
+<td>2/05/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/allii-sativi-bulbus</td>
+</tr>
+<tr>
+<td>Mastic</td>
+<td>Pistacia lentiscus L.</td>
+<td>Mastic (Mastix, Pistaciae lentisci resina)</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Gastrointestinal disorders</td>
+<td>2/05/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/mastic</td>
+</tr>
+<tr>
+<td>Fragariae folium</td>
+<td>Fragaria vesca L.; Fragaria moschata Weston; Fragaria viridis Weston; Fragaria x ananassa (Weston) Duchesne ex Rozier </td>
+<td>Wild Strawberry Leaf</td>
+<td>no</td>
+<td>Urinary tract and genital disorders, Gastrointestinal disorders</td>
+<td>31/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/fragariae-folium</td>
+</tr>
+<tr>
+<td>Malvae folium</td>
+<td>Malva sylvestris L.; Malva neglecta Wallr.</td>
+<td>Mallow leaf</td>
+<td>no</td>
+<td>Cough and cold, Gastrointestinal disorders</td>
+<td>31/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/malvae-folium</td>
+</tr>
+<tr>
+<td>Soiae oleum raffinatum</td>
+<td> refined</td>
+<td>Soya-bean oil</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>31/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/soiae-oleum-raffinatum</td>
+</tr>
+<tr>
+<td>Malvae sylvestris flos</td>
+<td>Malva sylvestris L.</td>
+<td>Mallow flower</td>
+<td>no</td>
+<td>Cough and cold, Gastrointestinal disorders</td>
+<td>31/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/malvae-sylvestris-flos</td>
+</tr>
+<tr>
+<td>Matricariae aetheroleum</td>
+<td>Matricaria recutita L.</td>
+<td>Matricaria Oil</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>31/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/matricariae-aetheroleum</td>
+</tr>
+<tr>
+<td>Lecithinum ex soya</td>
+<td>Glycine max (L.) Merr.</td>
+<td>Soya-bean lecithin</td>
+<td>no</td>
+<td>Fatigue and weakness</td>
+<td>31/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/lecithinum-ex-soya</td>
+</tr>
+<tr>
+<td>Hippocastani cortex</td>
+<td>Aesculus hippocastanum L.</td>
+<td>Horse-chestnut bark</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>27/03/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hippocastani-cortex</td>
+</tr>
+<tr>
+<td>Hyperici herba</td>
+<td>Hypericum perforatum L.</td>
+<td>St. John&#39;s Wort</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Mental stress and mood disorders, Gastrointestinal disorders</td>
+<td>22/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hyperici-herba</td>
+</tr>
+<tr>
+<td>Vaccinii macrocarpi fructus</td>
+<td>Vaccinium macrocarpon Aiton</td>
+<td>Cranberry</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>21/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/vaccinii-macrocarpi-fructus</td>
+</tr>
+<tr>
+<td>Agrimoniae herba</td>
+<td>Agrimonia eupatoria L.</td>
+<td>Agrimony</td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds, Gastrointestinal disorders</td>
+<td>20/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/agrimoniae-herba</td>
+</tr>
+<tr>
+<td>Pruni cerasi stipites</td>
+<td>Prunus cerasus L./Prunus avium L.</td>
+<td>Cherry stalks</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>16/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/pruni-cerasi-stipites</td>
+</tr>
+<tr>
+<td>Cannabis flos</td>
+<td>Cannabis sativa L.</td>
+<td>Cannabis flowering tops</td>
+<td>no</td>
+<td> </td>
+<td>16/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cannabis-flos</td>
+</tr>
+<tr>
+<td>Combination: Species pectoralis</td>
+<td> </td>
+<td>Herbal tea combinations for use in cough and cold</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>16/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/species-pectoralis</td>
+</tr>
+<tr>
+<td>Cnici benedicti herba</td>
+<td>Cnicus benedictus L.</td>
+<td>St. Benedict&#39;s thistle (also blessed thistle, holy thistle or spotted thistle)</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>16/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cnici-benedicti-herba</td>
+</tr>
+<tr>
+<td>Tiliae flos</td>
+<td>Tilia cordata Miller, Tilia platyphyllos Scop., Tilia x vulgaris Heyne</td>
+<td>Lime flower</td>
+<td>no</td>
+<td>Cough and cold, Mental stress and mood disorders</td>
+<td>15/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/tiliae-flos</td>
+</tr>
+<tr>
+<td>Paulliniae semen</td>
+<td>Paullinia cupana Kunth (syn. Paullinia sorbilis Mart.)</td>
+<td>Guarana</td>
+<td>no</td>
+<td>Fatigue and weakness</td>
+<td>14/02/2023</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/paulliniae-semen</td>
+</tr>
+<tr>
+<td>Rosmarini aetheroleum</td>
+<td>Rosmarinus officinalis L.</td>
+<td>Rosemary Oil</td>
+<td>no</td>
+<td>Circulatory disorders, Gastrointestinal disorders</td>
+<td>15/12/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rosmarini-aetheroleum</td>
+</tr>
+<tr>
+<td>Rosmarini folium</td>
+<td>Rosmarinus officinalis L.</td>
+<td>Rosemary leaf</td>
+<td>no</td>
+<td>Circulatory disorders, Gastrointestinal disorders</td>
+<td>15/12/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rosmarini-folium</td>
+</tr>
+<tr>
+<td>Foeniculi dulcis fructus</td>
+<td>Foeniculum vulgare Miller subsp. vulgare var. dulce (Mill.) Batt. &amp; Trab.</td>
+<td>Sweet Fennel</td>
+<td>no</td>
+<td>Urinary tract and genital disorders, Cough and cold</td>
+<td>15/12/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/foeniculi-dulcis-fructus</td>
+</tr>
+<tr>
+<td>Foeniculi amari fructus</td>
+<td>Foeniculum vulgare Miller subsp. vulgare var. vulgare</td>
+<td>Bitter Fennel</td>
+<td>no</td>
+<td>Urinary tract and genital disorders, Cough and cold</td>
+<td>15/12/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/foeniculi-amari-fructus</td>
+</tr>
+<tr>
+<td>Eschscholziae herba</td>
+<td>Eschscholzia california Cham.</td>
+<td>California poppy</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>21/11/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/eschscholziae-herba</td>
+</tr>
+<tr>
+<td>Combination: Species digestivae</td>
+<td> </td>
+<td>Herbal tea combinations for use in gastrointestinal complaints</td>
+<td>yes</td>
+<td>Gastrointestinal disorders</td>
+<td>21/11/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/species-digestivae-stomachicae</td>
+</tr>
+<tr>
+<td>Epilobii herba</td>
+<td>Epilobium angustifolium L. and/or Epilobium parviflorum Schreb.</td>
+<td>Willow herb</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>17/11/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/epilobii-herba</td>
+</tr>
+<tr>
+<td>Juglandis folium</td>
+<td>Juglans regia L.</td>
+<td>Walnut leaf</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>4/11/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/juglandis-folium</td>
+</tr>
+<tr>
+<td>Curcumae xanthorrhizae rhizoma</td>
+<td>Curcuma xanthorrhiza Roxb. (C. xanthorrhiza D. Dietrich).</td>
+<td>Javanese turmeric</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>4/11/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/curcumae-xanthorrhizae-rhizoma</td>
+</tr>
+<tr>
+<td>Tribuli terrestris herba</td>
+<td>Tribulus terrestris L.</td>
+<td>Tribulus herb </td>
+<td>no</td>
+<td>Urinary tract and gynaecology disorders</td>
+<td>14/10/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/tribuli-terrestris-herba</td>
+</tr>
+<tr>
+<td>Agropyri repentis rhizoma</td>
+<td>Agropyron repens (L.) P. Beauv.</td>
+<td>Couch grass rhizome</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>3/10/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/agropyri-repentis-rhizoma</td>
+</tr>
+<tr>
+<td>Camelliae sinensis non fermentatum folium</td>
+<td>Camellia sinensis (L.) Kuntze</td>
+<td>Green tea</td>
+<td>no</td>
+<td>Fatigue and weakness</td>
+<td>26/09/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/camelliae-sinensis-non-fermentatum-folium</td>
+</tr>
+<tr>
+<td>Centellae asiaticae herba</td>
+<td>Centella asiatica (L.) Urb.</td>
+<td>Centella</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>2/09/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/centellae-asiaticae-herba</td>
+</tr>
+<tr>
+<td>Foeniculi amari fructus aetheroleum</td>
+<td>Foeniculum vulgare Miller subsp. vulgare var. vulgare</td>
+<td>Bitter Fennel Fruit Oil</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>31/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/foeniculi-amari-fructus-aetheroleum</td>
+</tr>
+<tr>
+<td>Trigonellae foenugraeci semen</td>
+<td>Trigonella foenum-graecum L.</td>
+<td>Fenugreek</td>
+<td>no</td>
+<td>Loss of appetite, Skin disorders and minor wounds</td>
+<td>30/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/trigonellae-foenugraeci-semen</td>
+</tr>
+<tr>
+<td>Origani dictamni herba</td>
+<td>Origanum dictamnus L.</td>
+<td>Dittany of Crete herb</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Cough and cold, Gastrointestinal disorders</td>
+<td>10/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/origani-dictamni-herba</td>
+</tr>
+<tr>
+<td>Marrubii herba</td>
+<td>Marrubium vulgare L.</td>
+<td>White horehound</td>
+<td>no</td>
+<td>Loss of appetite, Cough and cold, Gastrointestinal disorders</td>
+<td>10/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/marrubii-herba</td>
+</tr>
+<tr>
+<td>Hyperici herba</td>
+<td>Hypericum perforatum L.</td>
+<td>St. John&#39;s Wort</td>
+<td>yes</td>
+<td>Urinary tract and genital disorders</td>
+<td>10/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hyperici-herba-cimicifugae-rhizoma</td>
+</tr>
+<tr>
+<td>Cimicifugae rhizoma</td>
+<td>Cimicifuga racemosa (L.) Nutt.</td>
+<td>Black Cohosh</td>
+<td>yes</td>
+<td>Urinary tract and genital disorders</td>
+<td>10/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hyperici-herba-cimicifugae-rhizoma</td>
+</tr>
+<tr>
+<td>Liquiritiae radix</td>
+<td>Glycyrrhiza glabra L.; Gycyrrhiza inflata Bat.; Glycyrrhiza uralensis Fisch.</td>
+<td>Liquorice Root</td>
+<td>no</td>
+<td>Cough and cold, Gastrointestinal disorders</td>
+<td>10/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/liquiritiae-radix</td>
+</tr>
+<tr>
+<td>Lichen islandicus</td>
+<td>Cetraria islandica (L.) Acharius s.l.</td>
+<td>Iceland moss</td>
+<td>no</td>
+<td>Loss of appetite, Mouth and throat disorders, Cough and cold</td>
+<td>10/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/lichen-islandicus</td>
+</tr>
+<tr>
+<td>Saccharomyces cerevisiae CBS 5926</td>
+<td>Saccharomyces cerevisiae CBS 5926</td>
+<td>Brewer&#39;s yeast </td>
+<td>no</td>
+<td> </td>
+<td>8/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/saccharomyces-cerevisiae-cbs-5926</td>
+</tr>
+<tr>
+<td>Salviae miltiorrhizae radix et rhizoma</td>
+<td>Salvia miltiorrhiza Bunge</td>
+<td>Salvia miltiorrhiza root and rhizome (&#39;Danshen&#39;)</td>
+<td>no</td>
+<td>Pain and inflammation</td>
+<td>3/08/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/salviae-miltiorrhizae-rhizoma</td>
+</tr>
+<tr>
+<td>Taraxaci officinalis radix</td>
+<td>Taraxacum officinale F.H. Wigg.</td>
+<td>Dandelion root</td>
+<td>no</td>
+<td>Loss of appetite, Urinary tract and genital disorders, Gastrointestinal disorders</td>
+<td>21/06/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/taraxaci-officinalis-radix</td>
+</tr>
+<tr>
+<td>Rosae flos</td>
+<td>Rosa centifolia L.; Rosa gallica L.; Rosa damascena Mill.</td>
+<td>Rose flower</td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds</td>
+<td>13/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rosae-flos</td>
+</tr>
+<tr>
+<td>Sennae folium</td>
+<td>Cassia senna L.; Cassia angustifolia Vahl</td>
+<td>Senna leaf</td>
+<td>no</td>
+<td>Constipation</td>
+<td>13/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sennae-folium</td>
+</tr>
+<tr>
+<td>Rhamni purshianae cortex</td>
+<td>Rhamnus purshianus D.C.</td>
+<td>Cascara</td>
+<td>no</td>
+<td>Constipation</td>
+<td>13/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rhamni-purshianae-cortex</td>
+</tr>
+<tr>
+<td>Symphyti radix</td>
+<td>Symphytum officinale L.</td>
+<td>Comfrey Root</td>
+<td>no</td>
+<td>Pain and inflammation</td>
+<td>13/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/symphyti-radix</td>
+</tr>
+<tr>
+<td>Sideritis herba</td>
+<td>Sideritis scardica Griseb.; Sideritis clandestina (Bory &amp; Chaub.) Hayek; Sideritis raeseri Boiss. &amp;</td>
+<td>Ironwort</td>
+<td>no</td>
+<td>Cough and cold, Gastrointestinal disorders</td>
+<td>13/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sideritis-herba</td>
+</tr>
+<tr>
+<td>Sennae fructus</td>
+<td>Cassia senna L.; Cassia angustifolia Vahl</td>
+<td>Senna pods</td>
+<td>no</td>
+<td>Constipation</td>
+<td>11/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sennae-fructus</td>
+</tr>
+<tr>
+<td>Rhei radix</td>
+<td>Rheum palmatum L.; Rheum officinale Baillon</td>
+<td>Rhubarb</td>
+<td>no</td>
+<td>Constipation</td>
+<td>11/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rhei-radix</td>
+</tr>
+<tr>
+<td>Aloes folii succus siccatus</td>
+<td>Aloe barbadensis Mill. and Aloe (various species</td>
+<td>Dried juice of Aloes leaves</td>
+<td>no</td>
+<td>Constipation</td>
+<td>11/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/aloes-folii-succus-siccatus</td>
+</tr>
+<tr>
+<td>Frangulae cortex</td>
+<td>Rhamnus frangula L.</td>
+<td>Frangula bark</td>
+<td>no</td>
+<td>Constipation</td>
+<td>11/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/frangulae-cortex</td>
+</tr>
+<tr>
+<td>Urticae radix</td>
+<td>Urtica dioica L.; Urtica urens L.</td>
+<td>Nettle root</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>6/04/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/urticae-radix</td>
+</tr>
+<tr>
+<td>Urticae folium</td>
+<td>Urtica dioica L.; Urtica urens L.</td>
+<td>Nettle Leaf</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>25/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/urticae-folium</td>
+</tr>
+<tr>
+<td>Cichorii intybi radix</td>
+<td>Cichorium intybus L.</td>
+<td>Chicory root</td>
+<td>no</td>
+<td>Loss of appetite, Gastrointestinal disorders</td>
+<td>18/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cichorii-intybi-radix</td>
+</tr>
+<tr>
+<td>Fucus</td>
+<td>Fucus vesiculosus L.</td>
+<td>Bladderwrack</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>16/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/fucus</td>
+</tr>
+<tr>
+<td>Cucurbitae semen</td>
+<td>Cucurbita pepo L.</td>
+<td>Pumpkin seed</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>16/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cucurbitae-semen</td>
+</tr>
+<tr>
+<td>Fraxini folium</td>
+<td>Fraxinus excelsior L., Fraxinus angustifolia Vahl</td>
+<td>Ash Leaf</td>
+<td>no</td>
+<td>Pain and inflammation, Urinary tract and genital disorders</td>
+<td>16/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/fraxini-folium</td>
+</tr>
+<tr>
+<td>Eucalypti folium</td>
+<td>Eucalyptus globulus Labill.</td>
+<td>Eucalyptus leaf</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>16/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/eucalypti-folium</td>
+</tr>
+<tr>
+<td>Grindeliae herba</td>
+<td>Grindelia robusta Nutt., Grindelia squarrosa (Pursh) Dunal, Grindelia humilis Hook. et Arn., Grindelia camporum Greene</td>
+<td>Gumweed herb</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>16/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/grindeliae-herba</td>
+</tr>
+<tr>
+<td>Ononidis radix</td>
+<td>Ononis spinosa L.</td>
+<td>Restharrow root</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>15/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/ononidis-radix</td>
+</tr>
+<tr>
+<td>Pruni africanae cortex</td>
+<td>Prunus africana (Hook f.) Kalkm.</td>
+<td>Pygeum africanum bark</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>15/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/pruni-africanae-cortex</td>
+</tr>
+<tr>
+<td>Pilosellae herba cum radice</td>
+<td>Hieracium pilosella L.</td>
+<td>Mouse-ear hawkweed</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>15/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/pilosellae-herba-cum-radice</td>
+</tr>
+<tr>
+<td>Polygoni avicularis herba</td>
+<td>Polygonum aviculare L.</td>
+<td>Knotgrass herb</td>
+<td>no</td>
+<td>Mouth and throat disorders, Urinary tract and genital disorders, Cough and cold</td>
+<td>15/03/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/polygoni-avicularis-herba</td>
+</tr>
+<tr>
+<td>Matricariae flos</td>
+<td>Matricaria recutita L.</td>
+<td>Matricaria Flower</td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds, Cough and cold, Gastrointestinal disorders</td>
+<td>15/02/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos</td>
+</tr>
+<tr>
+<td>Ginkgo folium</td>
+<td>Ginkgo biloba L.</td>
+<td>Ginkgo leaf</td>
+<td>no</td>
+<td>Circulatory disorders</td>
+<td>15/02/2022</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/ginkgo-folium</td>
+</tr>
+<tr>
+<td>Orthosiphonis folium</td>
+<td>Orthosiphon aristatus (Blume) Miq. var. aristatus</td>
+<td>Java Tea</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>14/12/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/orthosiphonis-folium</td>
+</tr>
+<tr>
+<td>Mate folium</td>
+<td>Ilex paraguariensis A.St.-Hil.,</td>
+<td>Mat  Leaf</td>
+<td>no</td>
+<td>Fatigue and weakness, Urinary tract and genital disorders</td>
+<td>29/11/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/mate-folium</td>
+</tr>
+<tr>
+<td>Citri bergamiae aetheroleum</td>
+<td>Citrus bergamia Risso &amp; Poiteau.</td>
+<td>Bergamot oil</td>
+<td>no</td>
+<td> </td>
+<td>29/11/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/citri-bergamiae-aetheroleum</td>
+</tr>
+<tr>
+<td>Combination: Species sedativae</td>
+<td> </td>
+<td>Herbal tea combinations for use as sedatives</td>
+<td>yes</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>28/10/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/species-sedativae</td>
+</tr>
+<tr>
+<td>Combination: Species amarae</td>
+<td> </td>
+<td>Herbal tea combinations for use in loss of appetite</td>
+<td>yes</td>
+<td>Loss of appetite</td>
+<td>26/10/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/species-amarae</td>
+</tr>
+<tr>
+<td>Violae herba cum flore</td>
+<td>Viola tricolor L.; Viola arvensis Murray (Gaud); Viola vulgaris Koch (Oborny)</td>
+<td>Wild Pansy</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>16/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/violae-tricoloris-herba-cum-flore</td>
+</tr>
+<tr>
+<td>Sabalis serrulatae fructus</td>
+<td>Serenoa repens (W.Bartram) Small (syn. Sabal serrulata (Michx.) Schult.f.)</td>
+<td>Saw Palmetto Fruit</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>16/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sabalis-serrulatae-fructus</td>
+</tr>
+<tr>
+<td>Rusci rhizoma</td>
+<td>Ruscus aculeatus L.</td>
+<td>Butcher&#39;s Broom</td>
+<td>no</td>
+<td>Circulatory disorders</td>
+<td>16/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/rusci-rhizoma</td>
+</tr>
+<tr>
+<td>Caryophylli flos</td>
+<td>Syzygium aromaticum (L.) Merr. et L.M.Perry (syn. Eugenia caryophyllus (Spreng.) Bullock et S.G.Harrison)</td>
+<td>Clove</td>
+<td>no</td>
+<td> </td>
+<td>16/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/caryophylli-flos</td>
+</tr>
+<tr>
+<td>Caryophylli floris aetheroleum</td>
+<td>Syzygium aromaticum (L.) Merr. et L.M. Perry (syn. Eugenia caryophyllus (Spreng.) Bullock et S.G. Harrison)</td>
+<td>Clove oil</td>
+<td>no</td>
+<td>Mouth and throat disorders</td>
+<td>16/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/caryophylli-floris-aetheroleum</td>
+</tr>
+<tr>
+<td>Salviae trilobae folium</td>
+<td>Salvia fructicosa Mill. (syn. Salvia triloba L. fil)</td>
+<td>Three-lobed sage leaf</td>
+<td>no</td>
+<td> </td>
+<td>16/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/salviae-trilobae-folium</td>
+</tr>
+<tr>
+<td>Oenotherae oleum</td>
+<td>Oenothera biennis L.; Oenothera lamarckiana L.</td>
+<td>Evening primrose oil</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>15/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/oenotherae-oleum</td>
+</tr>
+<tr>
+<td>Piperis methystici rhizoma</td>
+<td>Piper methysticum G. Forst.</td>
+<td>Kava-kava</td>
+<td>no</td>
+<td> </td>
+<td>15/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/piperis-methystici-rhizoma</td>
+</tr>
+<tr>
+<td>Levistici radix</td>
+<td>Levisticum officinale W.D.J.Koch </td>
+<td>Lovage root</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>15/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/levistici-radix</td>
+</tr>
+<tr>
+<td>Paeoniae radix rubra</td>
+<td>Paeonia lactiflora Pall.; Paeonia veitchii Lynch </td>
+<td>Peony root, red</td>
+<td>no</td>
+<td> </td>
+<td>15/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/paeoniae-radix-rubra</td>
+</tr>
+<tr>
+<td>Paeoniae radix alba</td>
+<td>Paeonia lactiflora Pallas</td>
+<td>Peony root, white</td>
+<td>no</td>
+<td> </td>
+<td>15/09/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/paeoniae-radix-alba</td>
+</tr>
+<tr>
+<td>Verbenae citriodorae folium</td>
+<td>Aloysia citriodora Pal u (syn. Aloysia triphylla (L H r.) Kuntze; Verbena triphylla  </td>
+<td>Lemon verbena leaf</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders, Gastrointestinal disorders</td>
+<td>16/08/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/verbenae-citriodorae-folium</td>
+</tr>
+<tr>
+<td>Cisti cretici herba</td>
+<td>Cistus creticus L.</td>
+<td>Pink rock-rose</td>
+<td>no</td>
+<td> </td>
+<td>26/07/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cisti-cretici-herba</td>
+</tr>
+<tr>
+<td>Menyanthidis trifoliatae folium</td>
+<td>Menyanthes trifoliata L.</td>
+<td>Bogbean leaf</td>
+<td>no</td>
+<td>Loss of appetite, Pain and inflammation, Gastrointestinal disorders</td>
+<td>20/07/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/menyanthidis-trifoliatae-folium</td>
+</tr>
+<tr>
+<td>Colae semen</td>
+<td>Cola nitida (Vent.) Schott et Endl. (C. vera K. Schum.); Cola acuminata (P. Beauv.) Schott et Endl. (Sterculia acuminata P. Beauv.)</td>
+<td>Cola</td>
+<td>no</td>
+<td>Fatigue and weakness</td>
+<td>28/06/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/colae-semen</td>
+</tr>
+<tr>
+<td>Cinnamomi corticis aetheroleum</td>
+<td>Cinnamomum verum J. S. Presl (Cinnamomum zeylanicum Nees)</td>
+<td>Cinnamon Bark Oil</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>26/04/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cinnamomi-corticis-aetheroleum</td>
+</tr>
+<tr>
+<td>Cinnamomi cortex</td>
+<td>Cinnamomum verum J. S. Presl</td>
+<td>Cinnamon</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>9/04/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cinnamomi-cortex</td>
+</tr>
+<tr>
+<td>Menthae piperitae folium</td>
+<td>Mentha x piperita L.</td>
+<td>peppermint leaf</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>7/04/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-folium</td>
+</tr>
+<tr>
+<td>Millefolii herba</td>
+<td>Achillea millefolium L.</td>
+<td>Yarrow</td>
+<td>no</td>
+<td>Loss of appetite, Skin disorders and minor wounds, Urinary tract and genital disorders, Gastrointestinal disorders</td>
+<td>7/04/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/millefolii-herba</td>
+</tr>
+<tr>
+<td>Eucalypti aetheroleum</td>
+<td>Eucalyptus globulus Labill.; Eucalyptus polybractea R.T. Baker; Eucalyptus smithii R.T. Baker.</td>
+<td>Eucalyptus Oil</td>
+<td>no</td>
+<td>Pain and inflammation, Cough and cold</td>
+<td>2/03/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/eucalypti-aetheroleum</td>
+</tr>
+<tr>
+<td>Lavandulae flos</td>
+<td>Lavandula angustifolia Mill. (L. officinalis Chaix)</td>
+<td>Lavender</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>11/02/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/lavandulae-flos</td>
+</tr>
+<tr>
+<td>Arnicae flos</td>
+<td>Arnica montana L.</td>
+<td>Arnica flower</td>
+<td>no</td>
+<td>Pain and inflammation</td>
+<td>2/02/2021</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/arnicae-flos</td>
+</tr>
+<tr>
+<td>Solani dulcamarae stipites</td>
+<td>Solanum dulcamara L.</td>
+<td>Woody nightshade stem</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>21/12/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/solani-dulcamarae-stipites</td>
+</tr>
+<tr>
+<td>Chamomillae romanae flos</td>
+<td>Chamaemelum nobile (L.) All. (Anthemis nobilis L.)</td>
+<td>Roman Chamomile Flower</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>14/12/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/chamomillae-romanae-flos</td>
+</tr>
+<tr>
+<td>Carvi aetheroleum</td>
+<td>Carum carvi L.</td>
+<td>Caraway oil</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>11/12/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/carvi-aetheroleum</td>
+</tr>
+<tr>
+<td>Solidaginis virgaureae herba</td>
+<td>Solidago virgaurea L.</td>
+<td>European Goldenrod</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>29/11/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/solidaginis-virgaureae-herba</td>
+</tr>
+<tr>
+<td>Juniperi aetheroleum</td>
+<td>Juniperus communis L.</td>
+<td>Juniper Oil</td>
+<td>no</td>
+<td>Pain and inflammation, Urinary tract and genital disorders, Gastrointestinal disorders</td>
+<td>27/11/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/juniperi-aetheroleum</td>
+</tr>
+<tr>
+<td>Tanaceti parthenii herba</td>
+<td>Tanacetum parthenium (L.) Schultz Bip.</td>
+<td>Feverfew</td>
+<td>no</td>
+<td>Pain and inflammation</td>
+<td>20/10/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/tanaceti-parthenii-herba</td>
+</tr>
+<tr>
+<td>Thymi aetheroleum</td>
+<td>Thymus vulgaris L.; Thymus zygis L. </td>
+<td>Thyme oil</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>15/10/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/thymi-aetheroleum</td>
+</tr>
+<tr>
+<td>Herniariae herba</td>
+<td>Herniaria glabra L.; Herniaria hirsuta L.; Herniaria incana Lam.</td>
+<td>Rupturewort</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>14/10/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/herniariae-herba</td>
+</tr>
+<tr>
+<td>Filipendulae ulmariae herba</td>
+<td>Filipendula ulmaria (L.) Maxim. (= Spiraea ulmaria L.).</td>
+<td>Meadowsweet</td>
+<td>no</td>
+<td>Pain and inflammation, Cough and cold</td>
+<td>30/07/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/filipendulae-ulmariae-herba</td>
+</tr>
+<tr>
+<td>Filipendulae ulmariae flos</td>
+<td>Filipendula ulmaria (L.) Maxim. (= Spiraea ulmaria L.).</td>
+<td>Meadowsweet Flower</td>
+<td>no</td>
+<td>Pain and inflammation, Cough and cold</td>
+<td>30/07/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/filipendulae-ulmariae-flos</td>
+</tr>
+<tr>
+<td>Hippocastani semen</td>
+<td>Aesculus hippocastanum L.</td>
+<td>Horse-Chestnut Seed</td>
+<td>no</td>
+<td>Circulatory disorders</td>
+<td>24/07/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hippocastani-semen</td>
+</tr>
+<tr>
+<td>Menthae piperitae aetheroleum</td>
+<td>Mentha x piperita L.</td>
+<td>Peppermint oil</td>
+<td>no</td>
+<td>Pain and inflammation, Skin disorders and minor wounds, Cough and cold, Gastrointestinal disorders</td>
+<td>24/07/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum</td>
+</tr>
+<tr>
+<td>Tormentillae rhizoma</td>
+<td>Potentilla erecta (L.) Raeusch.</td>
+<td>Tormentil</td>
+<td>no</td>
+<td>Mouth and throat disorders, Gastrointestinal disorders</td>
+<td>8/06/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/tormentillae-rhizoma</td>
+</tr>
+<tr>
+<td>Quercus cortex</td>
+<td>Quercus robur L.; Quercus petraea (Matt.) Liebl.; Quercus pubescens Willd.</td>
+<td>Oak Bark</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Circulatory disorders, Gastrointestinal disorders</td>
+<td>8/06/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/quercus-cortex</td>
+</tr>
+<tr>
+<td>Absinthii herba</td>
+<td>Artemisia absinthium L.</td>
+<td>Wormwood</td>
+<td>no</td>
+<td>Loss of appetite, Gastrointestinal disorders</td>
+<td>8/04/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/absinthii-herba</td>
+</tr>
+<tr>
+<td>Taraxaci radix cum herba</td>
+<td>Taraxacum officinale Weber ex Wigg.</td>
+<td>Dandelion Root with Herb</td>
+<td>no</td>
+<td>Loss of appetite, Urinary tract and genital disorders, Gastrointestinal disorders</td>
+<td>8/04/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/taraxaci-radix-cum-herba</td>
+</tr>
+<tr>
+<td>Arctii radix</td>
+<td>Arctium lappa L.</td>
+<td>Burdock Root</td>
+<td>no</td>
+<td>Loss of appetite, Skin disorders and minor wounds, Urinary tract and genital disorders</td>
+<td>3/04/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/arctii-radix</td>
+</tr>
+<tr>
+<td>Combination: Valerianae radix and Lupuli flos</td>
+<td>Combination: Valeriana officinalis L. and Humulus lupulus L.</td>
+<td>Valerian Root and Hop Strobile</td>
+<td>yes</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>5/02/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/valerianae-radix-lupuli-flos</td>
+</tr>
+<tr>
+<td>Taraxaci folium</td>
+<td>Taraxacum officinale Weber ex Wigg.</td>
+<td>Dandelion Leaf</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>3/02/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/taraxaci-folium</td>
+</tr>
+<tr>
+<td>Pelargonii radix</td>
+<td>Pelargonium sidoides DC; Pelargonium reniforme Curt.</td>
+<td>Pelargonium root</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>31/01/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/pelargonii-radix</td>
+</tr>
+<tr>
+<td>Zingiberis rhizoma</td>
+<td>Zingiber officinale Roscoe</td>
+<td>Ginger</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>31/01/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma</td>
+</tr>
+<tr>
+<td>Carvi fructus</td>
+<td>Carum carvi L.</td>
+<td>Caraway fruit</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>31/01/2020</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/carvi-fructus</td>
+</tr>
+<tr>
+<td>Hamamelidis folium</td>
+<td>Hamamelis virginiana L.</td>
+<td>Hamamelis Leaf</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Circulatory disorders</td>
+<td>9/12/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hamamelidis-folium</td>
+</tr>
+<tr>
+<td>Hamamelidis cortex</td>
+<td>Hamamelis virginiana L.</td>
+<td>Hamamelis Bark</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Circulatory disorders</td>
+<td>4/12/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hamamelidis-cortex</td>
+</tr>
+<tr>
+<td>Hamamelidis folium et cortex aut ramunculus destillatum</td>
+<td>Hamamelis virginiana L.</td>
+<td>Hamamelis Distillate</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Eye discomfort</td>
+<td>4/12/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hamamelidis-folium-et-cortex-aut-ramunculus-destillatum</td>
+</tr>
+<tr>
+<td>Adhatodae vasicae folium</td>
+<td>Adhatoda vasica Nees</td>
+<td>Malabar-nut leaf</td>
+<td>no</td>
+<td> </td>
+<td> </td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/adhatodae-vasicae-folium</td>
+</tr>
+<tr>
+<td>Avenae herba</td>
+<td>Avena sativa L.</td>
+<td>Oat Herb</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>23/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/avenae-herba</td>
+</tr>
+<tr>
+<td>Avenae fructus</td>
+<td>Avena sativa L.</td>
+<td>Oat Fruit</td>
+<td>no</td>
+<td>Skin disorders and minor wounds</td>
+<td>23/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/avenae-fructus</td>
+</tr>
+<tr>
+<td>Bursae pastoris herba</td>
+<td>Capsella bursa-pastoris (L.) Medik.</td>
+<td>Shepherds Purse</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>23/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/bursae-pastoris-herba</td>
+</tr>
+<tr>
+<td>Myrrha</td>
+<td> </td>
+<td> </td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds</td>
+<td>23/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/myrrha</td>
+</tr>
+<tr>
+<td>Polypodii rhizoma</td>
+<td>Polypodium vulgare L.</td>
+<td>Polypody Rhizome</td>
+<td>no</td>
+<td>Cough and cold, Constipation</td>
+<td>22/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/polypodii-rhizoma</td>
+</tr>
+<tr>
+<td>Millefolii flos</td>
+<td>Achillea millefolium L.</td>
+<td>Yarrow Flower</td>
+<td>no</td>
+<td>Loss of appetite, Skin disorders and minor wounds, Urinary tract and genital disorders, Gastrointestinal disorders</td>
+<td>22/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/millefolii-flos</td>
+</tr>
+<tr>
+<td>Leonuri cardiacae herba</td>
+<td>Leonurus cardiaca L.</td>
+<td>Motherwort</td>
+<td>no</td>
+<td>Circulatory disorders, Mental stress and mood disorders</td>
+<td>22/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/leonuri-cardiacae-herba</td>
+</tr>
+<tr>
+<td>Gentianae radix</td>
+<td>Gentiana lutea L.</td>
+<td>Gentian Root</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>22/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/gentianae-radix</td>
+</tr>
+<tr>
+<td>Phaseoli fructus (sine semine)</td>
+<td>Phaseolus vulgaris L.</td>
+<td>Green bean pod</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>22/08/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/phaseoli-fructus-sine-semine</td>
+</tr>
+<tr>
+<td>Echinaceae angustifoliae radix</td>
+<td>Echinacea angustifolia DC.</td>
+<td>Narrow-leaved coneflower root</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>23/04/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/echinaceae-angustifoliae-radix</td>
+</tr>
+<tr>
+<td>Cynarae folium</td>
+<td>Cynara cardunculus L. (syn. C. scolymus L.).</td>
+<td>Artichoke Leaf</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>13/03/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cynarae-folium</td>
+</tr>
+<tr>
+<td>Curcumae longae rhizoma</td>
+<td>Curcuma longa L.</td>
+<td>Turmeric</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>14/02/2019</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma</td>
+</tr>
+<tr>
+<td>Agni casti fructus</td>
+<td>Vitex agnus-castus L.</td>
+<td>Agnus Castus Fruit</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td> </td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/agni-casti-fructus</td>
+</tr>
+<tr>
+<td>Echinaceae pallidae radix</td>
+<td>Echinacea pallida (Nutt.) Nutt.</td>
+<td>Pale Coneflower Root</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>8/10/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/echinaceae-pallidae-radix</td>
+</tr>
+<tr>
+<td>Hederae helicis folium</td>
+<td>Hedera helix L.</td>
+<td>Ivy leaf</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>1/10/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/hederae-helicis-folium</td>
+</tr>
+<tr>
+<td>Glycini semen</td>
+<td>Glycine max (L.) Merr.</td>
+<td>Soya</td>
+<td>no</td>
+<td> </td>
+<td>31/07/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/glycini-semen</td>
+</tr>
+<tr>
+<td>Cimicifugae rhizoma</td>
+<td>Cimicifuga racemosa (L.) Nutt.</td>
+<td>Black Cohosh</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>26/07/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/cimicifugae-rhizoma</td>
+</tr>
+<tr>
+<td>Sambuci flos</td>
+<td>Sambucus nigra L.</td>
+<td>Elder Flower</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>26/07/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos</td>
+</tr>
+<tr>
+<td>Verbasci flos</td>
+<td>Verbascum thapsus L.; V. densiflorum Bertol. (V. thapsiforme Schrad); V. phlomoides L.</td>
+<td>Mullein Flower</td>
+<td>no</td>
+<td>Mouth and throat disorders, Cough and cold</td>
+<td>25/07/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/verbasci-flos</td>
+</tr>
+<tr>
+<td>Calendulae flos</td>
+<td>Calendula officinalis L.</td>
+<td>Calendula Flower</td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds</td>
+<td>2/07/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/calendulae-flos</td>
+</tr>
+<tr>
+<td>Angelicae sinensis radix</td>
+<td>Angelica sinensis (Oliv.) Diels</td>
+<td>Angelica sinensis root</td>
+<td>no</td>
+<td> </td>
+<td>30/04/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/angelicae-sinensis-radix</td>
+</tr>
+<tr>
+<td>Andrographidis paniculatae folium</td>
+<td>Andrographis paniculata Nees</td>
+<td>Kalmegh</td>
+<td>no</td>
+<td> </td>
+<td>30/04/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/andrographidis-paniculatae-folium</td>
+</tr>
+<tr>
+<td>Withaniae somniferae radix</td>
+<td>Withania somnifera (L.) Dunal</td>
+<td>Winter-cherry root</td>
+<td>no</td>
+<td> </td>
+<td>30/04/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/withaniae-somniferae-radix</td>
+</tr>
+<tr>
+<td>Meliloti herba</td>
+<td>Melilotus officinalis (L.) Lam.</td>
+<td>Melilot</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Circulatory disorders</td>
+<td>24/04/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/meliloti-herba</td>
+</tr>
+<tr>
+<td>Uvae ursi folium</td>
+<td>Arctostaphylos uva-ursi (L.) Spreng.</td>
+<td>Bearberry Leaf</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>11/04/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/uvae-ursi-folium</td>
+</tr>
+<tr>
+<td>Ribis nigri folium</td>
+<td>Ribes nigrum L.</td>
+<td>Blackcurrant Leaf</td>
+<td>no</td>
+<td>Pain and inflammation, Urinary tract and genital disorders</td>
+<td>13/03/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/ribis-nigri-folium</td>
+</tr>
+<tr>
+<td>Vitis viniferae folium</td>
+<td>Vitis vinifera L.</td>
+<td>Grapevine Leaf</td>
+<td>no</td>
+<td>Circulatory disorders</td>
+<td>5/01/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/vitis-viniferae-folium</td>
+</tr>
+<tr>
+<td>Oleae folium</td>
+<td>Olea europaea L.</td>
+<td>Olive leaf</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>4/01/2018</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/oleae-folium</td>
+</tr>
+<tr>
+<td>Echinaceae purpureae radix</td>
+<td>Echinacea purpurea (L.) Moench.</td>
+<td>Purple Coneflower Root</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Cough and cold</td>
+<td>17/08/2017</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-radix</td>
+</tr>
+<tr>
+<td>Salicis cortex</td>
+<td>Salix [various species including S. purpurea L.; S. daphnoides Vill.; S. fragilis L.]</td>
+<td>Willow Bark</td>
+<td>no</td>
+<td>Pain and inflammation, Cough and cold</td>
+<td>25/07/2017</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex</td>
+</tr>
+<tr>
+<td>Salviae officinalis folium</td>
+<td>Salvia officinalis L.</td>
+<td>Sage Leaf</td>
+<td>no</td>
+<td>Mouth and throat disorders, Skin disorders and minor wounds, Gastrointestinal disorders</td>
+<td>13/07/2017</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/salviae-officinalis-folium</td>
+</tr>
+<tr>
+<td>Boldi folium</td>
+<td>Peumus boldus Molina</td>
+<td>Boldo Leaf</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>9/03/2017</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/boldi-folium</td>
+</tr>
+<tr>
+<td>Harpagophyti radix</td>
+<td>Harpagophytum procumbens DC.; Harpagophytum zeyheri Decne</td>
+<td>Devil s Claw Root</td>
+<td>no</td>
+<td>Loss of appetite, Pain and inflammation, Gastrointestinal disorders</td>
+<td>2/12/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/harpagophyti-radix</td>
+</tr>
+<tr>
+<td>Althaeae radix</td>
+<td>Althaea officinalis L.</td>
+<td>Marshmallow Root</td>
+<td>no</td>
+<td>Mouth and throat disorders, Cough and cold, Gastrointestinal disorders</td>
+<td>4/11/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/althaeae-radix</td>
+</tr>
+<tr>
+<td>Thymi herba</td>
+<td>Thymus vulgaris L.; Thymus zygis L.</td>
+<td>Thyme</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>14/10/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/thymi-herba</td>
+</tr>
+<tr>
+<td>Lupuli flos</td>
+<td>Humulus lupulus L.</td>
+<td>Hop strobile</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>6/10/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/lupuli-flos</td>
+</tr>
+<tr>
+<td>Anisi aetheroleum</td>
+<td>Pimpinella anisum L.</td>
+<td>Anise Oil</td>
+<td>no</td>
+<td>Cough and cold, Gastrointestinal disorders</td>
+<td>6/10/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/anisi-aetheroleum</td>
+</tr>
+<tr>
+<td>Anisi fructus</td>
+<td>Pimpinella anisum L.</td>
+<td>Aniseed</td>
+<td>no</td>
+<td>Cough and cold, Gastrointestinal disorders</td>
+<td>6/10/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/anisi-fructus</td>
+</tr>
+<tr>
+<td>Primulae flos</td>
+<td>Primula veris L.; Primula elatior (L.) Hill</td>
+<td>Primula flower</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>6/10/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/primulae-flos</td>
+</tr>
+<tr>
+<td>Passiflorae herba</td>
+<td>Passiflora incarnata L.</td>
+<td>Passion Flower</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>6/10/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/passiflorae-herba</td>
+</tr>
+<tr>
+<td>Balsamum peruvianum</td>
+<td>Myroxylon balsamum (L.) Harms var. perierae (Royle) Harms</td>
+<td>Peru balsam</td>
+<td>no</td>
+<td> </td>
+<td>27/06/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/balsamum-peruvianum</td>
+</tr>
+<tr>
+<td>Combination: Thymi herba and Primulae radix</td>
+<td>Combination: Thymus vulgaris L.; Thymus zygis L. and Primula veris L.; Primula elatior (L.) Hill</td>
+<td>Thyme and Primula root</td>
+<td>yes</td>
+<td>Cough and cold</td>
+<td>23/06/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/thymi-herba-primulae-radix</td>
+</tr>
+<tr>
+<td>Valerianae aetheroleum</td>
+<td>Valeriana officinalis</td>
+<td>Valerian essential oil</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>20/06/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/valerianae-aetheroleum</td>
+</tr>
+<tr>
+<td>Crataegi folium cum flore</td>
+<td>Crataegus monogyna Jacq. (Lindm.), C. laevigata (Poir.) DC. or their hybrids; C. pentagyna Waldst. et Kit. ex Willd.; C. azarolus L.</td>
+<td>Hawthorn Leaf and Flower</td>
+<td>no</td>
+<td>Circulatory disorders, Mental stress and mood disorders</td>
+<td>17/06/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/crataegi-folium-cum-flore</td>
+</tr>
+<tr>
+<td>Equiseti herba</td>
+<td>Equisetum arvense L.</td>
+<td>Horsetail herb</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>28/04/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/equiseti-herba</td>
+</tr>
+<tr>
+<td>Valerianae radix</td>
+<td>Valeriana officinalis L.</td>
+<td>Valerian Root</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>28/04/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/valerianae-radix</td>
+</tr>
+<tr>
+<td>Echinaceae purpureae herba</td>
+<td>Echinacea purpurea (L.) Moench</td>
+<td>Purple Coneflower Herb</td>
+<td>no</td>
+<td>Skin disorders and minor wounds, Cough and cold</td>
+<td>17/02/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-herba</td>
+</tr>
+<tr>
+<td>Eleutherococci radix</td>
+<td>Eleutherococcus senticosus (Rupr. et Maxim.) Maxim.</td>
+<td>Eleutherococcus</td>
+<td>no</td>
+<td>Fatigue and weakness</td>
+<td>10/02/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/eleutherococci-radix</td>
+</tr>
+<tr>
+<td>Centaurii herba</td>
+<td>Centaurium erythraea Rafn. s.l.</td>
+<td>Centaury</td>
+<td>no</td>
+<td>Loss of appetite, Gastrointestinal disorders</td>
+<td>10/02/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/centaurii-herba</td>
+</tr>
+<tr>
+<td>Uncariae tomentosae cortex</td>
+<td>Uncaria tomentosa (Willd. ex Schult.) DC.</td>
+<td>Cat&#39;s Claw</td>
+<td>no</td>
+<td> </td>
+<td>22/01/2016</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/uncariae-tomentosae-cortex</td>
+</tr>
+<tr>
+<td>Betulae folium</td>
+<td>Betula pendula Roth / Betula pubescens Ehrh.</td>
+<td>Birch Leaf</td>
+<td>no</td>
+<td>Urinary tract and genital disorders</td>
+<td>20/10/2015</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/betulae-folium</td>
+</tr>
+<tr>
+<td>Picrorhizae kurroae rhizoma et radix</td>
+<td>Picrorhiza kurroa Royle ex. Benth.</td>
+<td>Katula</td>
+<td>no</td>
+<td> </td>
+<td>18/02/2015</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/picrorhizae-kurroae-rhizoma-et-radix</td>
+</tr>
+<tr>
+<td>Melissae folium</td>
+<td>Melissa officinalis L.</td>
+<td>Melissa leaf</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders, Gastrointestinal disorders</td>
+<td>16/06/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/melissae-folium</td>
+</tr>
+<tr>
+<td>Lavandulae aetheroleum</td>
+<td>Lavandula angustifolia Mill. (L. officinalis Chaix)</td>
+<td>Lavender Oil</td>
+<td>no</td>
+<td>Sleep disorders and temporary insomnia, Mental stress and mood disorders</td>
+<td>16/06/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/lavandulae-aetheroleum</td>
+</tr>
+<tr>
+<td>Plantaginis ovatae seminis tegumentum</td>
+<td>Plantago ovata Forssk.</td>
+<td>Ispaghula husk</td>
+<td>no</td>
+<td>Constipation</td>
+<td>16/06/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/plantaginis-ovatae-seminis-tegumentum</td>
+</tr>
+<tr>
+<td>Psyllii semen</td>
+<td>Plantago afra L.; Plantago indica L.</td>
+<td>Psyllium seed</td>
+<td>no</td>
+<td>Constipation</td>
+<td>16/06/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/psyllii-semen</td>
+</tr>
+<tr>
+<td>Plantaginis ovatae semen</td>
+<td>Plantago ovata Forssk.</td>
+<td>Ispaghula Seed</td>
+<td>no</td>
+<td>Constipation</td>
+<td>16/06/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/plantaginis-ovatae-semen</td>
+</tr>
+<tr>
+<td>Sambuci fructus</td>
+<td>Sambucus nigra L.</td>
+<td>Elderberry</td>
+<td>no</td>
+<td> </td>
+<td>29/04/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/sambuci-fructus</td>
+</tr>
+<tr>
+<td>Calendulae herba</td>
+<td>Calendula officinalis L.</td>
+<td>Marigold</td>
+<td>no</td>
+<td> </td>
+<td>14/02/2014</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/calendulae-herba</td>
+</tr>
+<tr>
+<td>Visci albi herba</td>
+<td>Viscum album L.</td>
+<td>Mistletoe</td>
+<td>no</td>
+<td> </td>
+<td>1/08/2013</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/visci-albi-herba</td>
+</tr>
+<tr>
+<td>Primulae radix</td>
+<td>Primula veris L.; Primula elatior (L.) Hill</td>
+<td>Primula root</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>4/03/2013</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/primulae-radix</td>
+</tr>
+<tr>
+<td>Tiliae tomentosae flos</td>
+<td>Tilia tomentosa Moench</td>
+<td>Silver lime flower</td>
+<td>no</td>
+<td> </td>
+<td>9/07/2012</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/tiliae-tomentosae-flos</td>
+</tr>
+<tr>
+<td>Allii cepae bulbus</td>
+<td>Allium cepa L.</td>
+<td>Onion</td>
+<td>no</td>
+<td> </td>
+<td>29/05/2012</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/allii-cepae-bulbus</td>
+</tr>
+<tr>
+<td>Plantaginis lanceolatae folium</td>
+<td>Plantago lanceolata L.</td>
+<td>Ribwort Plantain</td>
+<td>no</td>
+<td>Cough and cold</td>
+<td>24/02/2012</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/plantaginis-lanceolatae-folium</td>
+</tr>
+<tr>
+<td>Chelidonii herba</td>
+<td>Chelidonium majus L.</td>
+<td>Greater Celandine</td>
+<td>no</td>
+<td> </td>
+<td>20/01/2012</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/chelidonii-herba</td>
+</tr>
+<tr>
+<td>Fumariae herba</td>
+<td>Fumaria officinalis L.</td>
+<td>Fumitory</td>
+<td>no</td>
+<td>Gastrointestinal disorders</td>
+<td>6/12/2011</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/fumariae-herba</td>
+</tr>
+<tr>
+<td>Euphrasiae herba</td>
+<td>Euphrasia officinalis L.;  E. rostkoviana Hayne</td>
+<td>Eyebright</td>
+<td>no</td>
+<td> </td>
+<td>3/01/2011</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/euphrasiae-herba</td>
+</tr>
+<tr>
+<td>Urticae herba</td>
+<td>Urtica dioica L.; Urtica urens L.</td>
+<td>Nettle Herb</td>
+<td>no</td>
+<td>Pain and inflammation, Skin disorders and minor wounds, Urinary tract and genital disorders</td>
+<td>31/12/2009</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/urticae-herba</td>
+</tr>
+<tr>
+<td>Salviae officinalis aetheroleum</td>
+<td>Salvia officinalis L.</td>
+<td>Sage Oil</td>
+<td>no</td>
+<td> </td>
+<td> </td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/salviae-officinalis-aetheroleum</td>
+</tr>
+<tr>
+<td>Lini semen</td>
+<td>Linum usitatissimum L.</td>
+<td>Linseed</td>
+<td>no</td>
+<td>Constipation, Gastrointestinal disorders</td>
+<td>27/01/2005</td>
+<td>https://www.ema.europa.eu/en/medicines/herbal/lini-semen</td>
+</tr>
+</tbody></table>
+
+		</div>
+	</div>
+</section>
+</body>
+</html>
+

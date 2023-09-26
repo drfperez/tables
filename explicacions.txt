@@ -5,3 +5,92 @@ Aquest codi HTML crea una taula amb tres columnes i tres files, amb unes opcions
 - La funció showRow obté el valor del selector de fila, i afegeix la classe "selected" a totes les cel·les de la fila corresponent.
 - La funció toggleTable mostra o amaga el contenidor de la taula, i canvia el text del botó que crida la funció.
 - La segona part del codi defineix el cos del document, que conté el contenidor de la taula, els selectors de fila i columna, els botons per cridar les funcions, i el div on es mostra el contingut de la cel·la seleccionada. El contenidor de la taula té un id="table-container" per poder-lo referenciar des de l'script. La taula té un id="table" per poder accedir als seus elements des de l'script. Els selectors tenen els id="row-select" i "col-select" per poder obtenir els seus valors des de l'script. Els botons tenen els atributs onclick per cridar les funcions corresponents. El div té un id="content-div" i un style="display: none;" per poder mostrar o amagar el seu contingut des de l'script.
+
+El codi es pot dividir en dues parts: la part del cap i la part del cos.
+
+- La part del cap comença amb la línia 1, que indica el tipus de document HTML. Això és necessari perquè el navegador sàpiga com interpretar el codi.
+- La línia 2 obre l'element <head>, que conté informació sobre el document, com el títol, l'estil i l'script.
+- Les línies 3 a 6 defineixen uns metadades que indiquen al navegador que no guardi el document en la memòria cau, perquè es recarregui cada cop que s'obre.
+- La línia 7 defineix el títol del document, que apareix a la pestanya del navegador. En aquest cas, el títol és "Table with Dropdowns".
+- La línia 8 obre l'element <style>, que conté les regles d'estil per als elements del document. En aquest cas, només hi ha una regla, que defineix una classe anomenada "selected" amb un atribut background-color: yellow. Això significa que els elements que tinguin aquesta classe tindran un color de fons groc.
+- La línia 10 tanca l'element <style>.
+- La línia 11 obre l'element <script>, que conté el codi JavaScript que s'executarà al navegador. En aquest cas, hi ha tres funcions: showContent, showRow i toggleTable.
+- La línia 12 defineix la funció showContent, que té com a paràmetre cap. Aquesta funció mostra el contingut de la cel·la de la taula que coincideix amb els valors dels selectors de fila i columna.
+- La línia 13 declara una variable anomenada row, i li assigna el valor del selector amb id="row-select". Aquest selector permet triar una fila de la taula entre les opcions Row 1, Row 2 i Row 3.
+- La línia 14 declara una variable anomenada col, i li assigna el valor del selector amb id="col-select". Aquest selector permet triar una columna de la taula entre les opcions Column 1, Column 2 i Column 3.
+- La línia 15 declara una variable anomenada content, i li assigna el valor de la propietat innerHTML de la cel·la de la taula que es troba a la fila row+1 i la columna col. La propietat innerHTML retorna el contingut d'un element HTML com una cadena de text. S'ha d'afegir 1 a la fila perquè la primera fila de la taula és el capçalera, i no es vol comptar.
+- La línia 16 assigna el valor de la variable content a la propietat innerHTML de l'element amb id="content-div". Aquest element és un div on es mostrarà el contingut de la cel·la seleccionada.
+- La línia 17 assigna el valor "block" a la propietat style.display de l'element amb id="content-div". Això fa que l'element sigui visible al navegador. Inicialment, l'element té un style.display="none", que fa que estigui ocult.
+- La línia 19 obre un bloc de comentari, que s'utilitza per afegir notes o explicacions al codi. Els comentaris no s'executen ni es mostren al navegador.
+- La línia 20 escriu "Highlight selected cell" com a comentari.
+- La línia 21 tanca el bloc de comentari.
+- La línia 22 declara una variable anomenada cells, i li assigna el valor de la propietat cells de la fila row+1 de l'element amb id="table". Aquest element és la taula que conté les files i les columnes. La propietat cells retorna una col·lecció d'elements que representen les cel·les d'una fila.
+- La línia 23 obre un bucle for, que s'utilitza per repetir unes instruccions un nombre determinat de vegades. En aquest cas, el bucle es repeteix des de i = 0 fins a i < cells.length, incrementant i en 1 cada vegada. La variable i representa l'índex de cada cel·la de la fila.
+- La línia 24 crida el mètode remove de la propietat classList de la cel·la amb índex i. Aquest mètode elimina una classe d'un element. En aquest cas, s'elimina la classe "selected" de la cel·la, perquè no tingui el color de fons groc.
+- La línia 25 tanca el bucle for.
+- La línia 26 crida el mètode add de la propietat classList de la cel·la amb índex col. Aquest mètode afegeix una classe a un element. En aquest cas, s'afegeix la classe "selected" a la cel·la, perquè tingui el color de fons groc.
+- La línia 27 tanca la funció showContent.
+- La línia 29 defineix la funció showRow, que té com a paràmetre cap. Aquesta funció ressalta tota una fila de la taula, afegint la classe "selected" a totes les seves cel·les.
+- La línia 30 declara una variable anomenada row, i li assigna el valor del selector amb id="row-select".
+- La línia 31 declara una variable anomenada cells, i li assigna el valor de la propietat cells de la fila row+1 de l'element amb id="table".
+- La línia 32 obre un bucle for, que es repeteix des de i = 0 fins a i < cells.length, incrementant i en 1 cada vegada.
+- La línia 33 crida el mètode add de la propietat classList de la cel·la amb índex i. Aquest mètode afegeix la classe "selected" a la cel·la, perquè tingui el color de fons groc.
+- La línia 34 tanca el bucle for.
+- La línia 35 tanca la funció showRow.
+- La línia 37 defineix la funció toggleTable, que té com a paràmetre cap. Aquesta funció mostra o amaga el contenidor de la taula, i canvia el text del botó que crida la funció.
+- La línia 38 declara una variable anomenada tableContainer, i li assigna el valor de l'element amb id="table-container". Aquest element és un div que conté la taula.
+- La línia 39 declara una variable anomenada button, i li assigna el valor de l'element amb id="toggle-table-btn". Aquest element és un botó que permet mostrar o amagar la taula.
+- La línia 40 obre una condició if, que s'utilitza per executar unes instruccions si es compleix una condició. En aquest cas, la condició és que la propietat style.display de l'element tableContainer sigui igual a "none". Això significa que l'element està ocult al navegador.
+- La línia 41 assigna el valor "block" a la propietat style.display de l'element tableContainer. Això fa que l'element sigui visible al navegador.
+- La línia 42 assigna el valor "Hide Table" a la propietat textContent de l'element button. Això fa que el botó mostri aquest text al navegador.
+- La línia 43 obre una condició else, que s'utilitza per executar unes instruccions si no es compleix la condició del if anterior. En aquest cas, significa que l'element tableContainer està visible al navegador.
+- La línia 44 assigna el valor "none" a la propietat style.display de l'element tableContainer. Això fa que l'element estigui ocult al navegador.
+- La línia 45 assigna el valor "Show Table" a la propietat textContent de l'element button. Això fa que el botó mostri aquest text al navegador.
+- La línia 46 tanca la condició if/else.
+- La línia 47 tanca la funció toggleTable.
+- La línia 48 tanca l'element <script>.
+- La línia 49 tanca l'element <head>.
+- La part del cos comença amb la línia 50, que obre l'element <body>, que conté els elements que es mostren al navegador.
+- La línia 51 obre l'element <div> amb id="table-container". Aquest element és un contenidor que engloba la taula.
+- La línia 52 obre l'element <table> amb id="table". Aquest element crea una taula amb files i columnes.
+- La línia 53 obre l'element <thead>, que defineix el capçalera de la taula.
+- La línia 54 obre l'element <tr>, que defineix una fila de la taula.
+- Les línies 55 a 58 obren i tanquen els elements <th>, que defineixen les cel·les del capçalera de la taula. Cada element <th> conté un text que indica el nom de la fila o de la columna. En aquest cas, hi ha una cel·la buida, i tres cel·les amb els textos Column 1, Column 2 i Column 3.
+- La línia 59 tanca l'element <tr>.
+- La línia 60 tanca l'element <thead>.
+- La línia 61 obre l'element <tbody>, que defineix el cos de la taula.
+- Les línies 62 a 76 obren i tanquen tres elements <tr>, que defineixen les tres files del cos de la taula. Cada element <tr> conté quatre elements <td>, que defineixen les cel·les del cos de la taula. El primer element <td> de cada fila conté un text que indica el nom de la fila: Row 1, Row 2 o Row 3. Els altres elements <td> de cada fila contenen un text que indica el contingut de la cel·la: Content x,y, on x és el número de fila i y és el número de columna.
+- La línia 77 tanca l'element <tbody>.
+- La línia 78 tanca l'element <table>.
+- La línia 79 tanca l'element <div>.
+- La línia 80 afegeix un salt de línia amb l'element <br>.
+- La línia 81 obre l'element <label> amb l'atribut for="row-select". Aquest element crea una etiqueta per al selector de fila, que indica al navegador que quan es faci clic sobre l'etiqueta, s'activi el selector.
+- La línia 82 conté el text "Select a row:" com a contingut de l'etiqueta.
+- La línia 83 tanca l'element <label>.
+- La línia 84 obre l'element <select> amb id="row-select". Aquest element crea un selector que permet triar una opció d'una llista desplegable.
+- Les línies 85 a 87 obren i tanquen els elements <option> amb els atributs value="0", value="1" i value="2". Aquests elements creen les opcions del selector, que mostren els textos Row 1, Row 2 i Row 3 al navegador. Els atributs value indiquen els valors que s'assignaran al selector quan es triï una opció. En aquest cas, s'utilitzen els números 0, 1 i 2 per representar les files.
+- La línia 88 tanca l'element <select>.
+- La línia 89 afegeix dos salts de línia amb dos elements <br>.
+- La línia 90 obre l'element <label> amb l'atribut for="col-select". Aquest element crea una etiqueta per al selector de columna, que indica al navegador que quan es faci clic sobre l'etiqueta, s'activi el selector.
+- La línia 91 conté el text "Select a column:" com a contingut de l'etiqueta.
+- La línia 92 tanca l'element <label>.
+- La línia 93 obre l'element <select> amb id="col-select". Aquest element crea un selector que permet triar una opció d'una llista desplegable.
+- Les línies 94 a 96 obren i tanquen els elements <option> amb els atributs value="1", value="2" i value="3". Aquests elements creen les opcions del selector, que mostren els textos Column 1, Column 2 i Column 3 al navegador. Els atributs value indiquen els valors que s'assignaran al selector quan es triï una opció. En aquest cas, s'utilitzen els números 1, 2 i 3 per representar les columnes.
+- La línia 97 tanca l'element <select>.
+- La línia 98 afegeix dos salts de línia amb dos elements <br>.
+- La línia 99 obre l'element <button> amb id="toggle-table-btn" i l'atribut onclick="toggleTable()". Aquest element crea un botó que permet mostrar o amagar la taula, i crida la funció toggleTable quan es faci clic sobre el botó.
+- La línia 100 conté el text "Hide Table" com a contingut del botó. Aquest text es mostra al navegador, i indica l'acció que farà el botó. Inicialment, el botó amaga la taula, però quan es prem, canvia el text a "Show Table", i mostra la taula.
+- La línia 101 tanca l'element <button>.
+- La línia 102 obre l'element <button> amb l'atribut onclick="showContent()". Aquest element crea un botó que permet mostrar el contingut de la cel·la seleccionada, i crida la funció showContent quan es faci clic sobre el botó.
+- La línia 103 conté el text "Show Content" com a contingut del botó. Aquest text es mostra al navegador, i indica l'acció que farà el botó.
+- La línia 104 tanca l'element <button>.
+- La línia 105 obre l'element <button> amb l'atribut onclick="showRow()". Aquest element crea un botó que permet ressaltar tota una fila de la taula, i crida la funció showRow quan es faci clic sobre el botó.
+- La línia 106 conté el text "Highlight Row" com a contingut del botó. Aquest text es mostra al navegador, i indica l'acció que farà el botó.
+- La línia 107 tanca l'element <button>.
+- La línia 108 obre l'element <button> amb l'atribut onclick="location.reload(true)". Aquest element crea un botó que permet reiniciar la taula, i crida el mètode reload de l'objecte location quan es faci clic sobre el botó. Aquest mètode recarrega el document actual des del servidor, ignorant la memòria cau. El paràmetre true indica que s'ha de forçar la recàrrega des del servidor.
+- La línia 109 conté el text "Restart table" com a contingut del botó. Aquest text es mostra al navegador, i indica l'acció que farà el botó.
+- La línia 110 tanca l'element <button>.
+- La línia 111 obre l'element <div> amb id="content-div" i style="display: none;". Aquest element és un contenidor on es mostrarà el contingut de la cel·la seleccionada. Inicialment, té un estil display="none", que fa que estigui ocult al navegador.
+- La línia 112 tanca l'element <div>.
+- La línia 113 tanca l'element <body>.
+- La línia 114 tanca l'element <html>.

@@ -5,3 +5,5 @@ It is also possible to show or hide full table or restart highlights
 Highlighting a cell in a table and showing the cell contents 
 ![alt text](https://github.com/drfperez/tables/raw/main/highlightrow.jpg)
 Highlighting a row in a table and showing the row contents 
+![alt text](https://github.com/drfperez/tables/raw/main/interactivetable.jpg)
+Interactive table of herbal medicines with capabilities of searching and sorting
